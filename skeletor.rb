@@ -1,8 +1,8 @@
 class Skeletor < Formula
-  desc "Your project description here"
+  desc "A super optimised Rust scaffolding tool with snapshot annotations"
   homepage "https://github.com/jasonnathan/skeletor"
-  url "https://github.com/jasonnathan/skeletor/releases/download/v2.0.1/skeletor.tar.gz" # link to your tar.gz binary
-  sha256 "5ce7b4047a317fef8f424850e13b736efd32f38a7b3de59843647813d24a4a69"  # Replace this with the actual SHA256 checksum of your tar.gz file
+  url "https://github.com/jasonnathan/skeletor/releases/download/v2.2.17/skeletor-macos-x86_64-apple-darwin.tar.gz"
+  sha256 "d848937300fecbdc6f0463ab367414e9c976786be15358b973751c0ec7a90c53"
   license "MIT"
 
   def install
@@ -10,6 +10,6 @@ class Skeletor < Formula
   end
 
   test do
-    system "#{bin}/skeletor", "--version"
+    system "#{bin}/skeletor", "--help"
   end
 end
