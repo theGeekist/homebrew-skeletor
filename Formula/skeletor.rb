@@ -5,19 +5,19 @@ class Skeletor < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/theGeekist/skeletor/releases/download/v0.3.15/skeletor-macos-aarch64-apple-darwin.tar.gz"
-      sha256 "e46fb6e6dde7980915efda482a1346b5d5c68f958a1ee1664e00e5bc1e9a3efa"
+      url "https://github.com/theGeekist/skeletor/releases/download/v0.3.16/skeletor-macos-aarch64-apple-darwin.tar.gz"
+      sha256 "2f31e98fb3a34843153cfe72cc5ec2731c65495c1b9d40bb66705b9d190c429e"
     end
     on_intel do
-      url "https://github.com/theGeekist/skeletor/releases/download/v0.3.15/skeletor-macos-x86_64-apple-darwin.tar.gz"
-      sha256 "a78da3591677c2d7a290a7e858f004b1efd4740d34d617a9745c9ce449e0164a"
+      url "https://github.com/theGeekist/skeletor/releases/download/v0.3.16/skeletor-macos-x86_64-apple-darwin.tar.gz"
+      sha256 "3650f5b033ecf3a98d36a5c0f3c3d7f818f6c09629dfd953fb97216b6719f9a3"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/theGeekist/skeletor/releases/download/v0.3.15/skeletor-ubuntu-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4a874016da67db1cf2783aa68a4165f9e4597a64ac8afd07b415ca46ad942e6c"
+      url "https://github.com/theGeekist/skeletor/releases/download/v0.3.16/skeletor-ubuntu-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "961eac802a06cbaf7b9aaf5faef08c8b663884ecda05c2e838a2352f93ed4d50"
     end
   end
 
